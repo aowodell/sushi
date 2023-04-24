@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+:root {
+  --kotak: #BA7967;
+  --border: .1rem solid #333; 
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #5E6F64;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-display {
+  margin: 2rem 0;
+}
+
+.user-display .user-display-table {
+  width: 100%;
+  text-align: center;
+}
+
+.user-display .user-display-table thead {
+  background: gainsboro;
+}
+
+.user-display .user-display-table th {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.user-display .user-display-table td {
+  padding: 1rem;
+  font-size: 2rem;
+  border-bottom: var(--border);
+}
+
+.user-display .user-display-table .btn:first-child {
+  margin-top: 0;
+}
+
+.user-display .user-display-table .btn:last-child {
+  background: crimson;
+}
+
+.user-display .user-display-table .btn:last-child:hover {
+  background: #333;
+}
+
+
+
+

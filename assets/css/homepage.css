@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #5E6F64;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* homepage */
+.hhsect {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFDECF;
+}
+  
+.homeHeader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.homeHeader .logo {
+    position: relative;
+    max-width: 80px;
+} 
+  
+.homeHeader ul {
+    position: relative;
+    display: flex;
+}
+  
+.homeHeader ul li {
+    list-style: none;
+}
+  
+.homeHeader ul li a {
+    display: inline-block;
+    color: #3F4441;
+    font-weight: bold;
+    margin-left: 40px;
+    text-decoration: none;
+}
+  
+.homeHeader ul li a .register {
+    transition: .3s;
+}
+  
+.homeHeader ul li a .register:hover {
+    padding: 8px 20px;
+    background-color: #F4F4F4;
+    border-radius: 40px;
+}
+  
+.homeHeader ul li a .login {
+    padding: 8px 20px;
+    background: #BA7967;
+    color: #F4F4F4;
+    border-radius: 40px;
+    transition: .3s;
+}
+  
+.homeHeader ul li a .login:hover {
+    background-color: #5E6F64;
+}
+  
+.homeContent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vw;
+}
+  
+.homeContent .textBox {
+    position: relative;
+    max-width: 600px;
+}
+  
+.homeContent .textBox h2 {
+    color: #3F4441;
+    font-size: 3.5em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+  
+.homeContent .textBox h2 span {
+    color: #5E6F64;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+  
+.homeContent .textBox p {
+    color: #151111;
+}
+  
+.homeContent .textBox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #5E6F64;
+    color: #F4F4F4;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: .3s;
+}
+  
+.homeContent .textBox a:hover {
+    background-color: #D49A89;
+}
+  
+.homeContent.imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+  
+.homeContent.imgBox img {
+    max-width: 340px;
+}
+  
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #7D8F69;
+    clip-path: circle(600px at right 780px);
+}
